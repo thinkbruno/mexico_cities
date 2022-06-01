@@ -5,10 +5,10 @@
 
 ### Sobre o projeto / About the project / Sobre el proyecto
 
-Base de dados no formato SQL com as cidades e estados do México para estudo e criação de ferramentas de busca das cidades através de seus estados. Divirta-se =)
+Base de dados no formato SQL com as cidades e estados do México para estudo e criação de ferramentas de busca das cidades através de seus estados. Divirta-se! =)
 
-Database in SQL format with the cities and states of Mexico to study and create search tools for cities across their states. Have fun =)
+Database in SQL format with the cities and states of Mexico to study and create search tools for cities across their states. Have fun! =)
 
-Base de datos en formato SQL con las ciudades y estados de México para estudiar y crear herramientas de búsqueda de ciudades a lo largo de sus estados. Diviértete =)
+Base de datos en formato SQL con las ciudades y estados de México para estudiar y crear herramientas de búsqueda de ciudades a lo largo de sus estados. ¡Que la pases bien! =)
 
 Quer me conhecer mais? / Want to know me more? / ¿Quieres conocerme más? [Website](https://allmylinks.com/ramosbruno90) 💻
