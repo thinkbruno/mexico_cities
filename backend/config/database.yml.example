@@ -1,0 +1,7 @@
+development:
+  <<: *default
+  database: mexico_cities_db
+  username: root
+  password: YOUR_PASSWORD_HERE
+  host: 127.0.0.1
+  port: 3309

@@ -1,0 +1,26 @@
+<main style="padding: 2rem; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+  <h1>🇲🇽 Mexico Cities</h1>
+  <p>Select a state to list the cities:</p>
+
+  <hr style="margin-bottom: 20px;">
+
+  <div style="margin-bottom: 15px;">
+    <label style="font-weight: bold; display: block;">State:</label>
+    <select [(ngModel)]="selectedStateId" (change)="onStateChange()" style="padding: 8px; width: 250px;">
+      <option [ngValue]="null">--- Select a State ---</option>
+      <option *ngFor="let state of states" [ngValue]="state.id">
+        {{ state.name }}
+      </option>
+    </select>
+  </div>
+
+  <div>
+    <label style="font-weight: bold; display: block;">City:</label>
+    <select [disabled]="!selectedStateId" style="padding: 8px; width: 250px;">
+      <option value="">--- Select a City ---</option>
+      <option *ngFor="let city of cities" [value]="city.id">
+        {{ city.name }}
+      </option>
+    </select>
+  </div>
+</main>

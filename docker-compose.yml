@@ -1,0 +1,16 @@
+services:
+  db:
+    image: mysql:8.0
+    container_name: mexico_db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: mexico_cities_db
+    ports:
+      - "3309:3306"
+    volumes:
+      - ./database/data:/var/lib/mysql
+      - ./database/schema:/docker-entrypoint-initdb.d
+
+volumes:
+  db_data:

@@ -1,0 +1,7 @@
+*.sql linguist-detectable=true
+*.sql linguist-documentation=false
+
+backend/vendor/* linguist-vendored
+frontend/node_modules/* linguist-vendored
+
+database/schema/*.sql linguist-language=SQL
